@@ -10,4 +10,5 @@ class AzureAppServiceSpringbootApplicationTests {
     void contextLoads() {
     }
 
+
 }
