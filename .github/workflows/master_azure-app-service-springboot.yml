@@ -30,7 +30,7 @@ jobs:
           name: java-app
           path: '${{ github.workspace }}/target/*.jar'
   test:
-    runs on: windows-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
