@@ -11,7 +11,7 @@ public class AzureAppServiceSpringbootApplication {
 
     @GetMapping("/")
      public String getGreeting(){
-        return "Welcome to Azure Web Service test";
+        return "Successfully created CI/CD pipeline...";
     }
 
     public static void main(String[] args) {
